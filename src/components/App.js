@@ -8,7 +8,7 @@ function App() {
   return (
     <div className="app">
       <SushiContainer />
-      <Table />
+      <Table plates={addPlate} />
     </div>
   );
 }
